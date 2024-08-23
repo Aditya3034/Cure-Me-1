@@ -1,0 +1,12 @@
+flask
+flask-cors
+langchain_google_genai
+langchain_community
+google-generativeai
+InstructorEmbedding
+sentence_transformers
+mysqlclient
+mysql-connector-python
+bs4
+pymysql
+tidb-vector

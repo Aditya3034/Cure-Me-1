@@ -1,0 +1,29 @@
+/* PromptCard.css */
+
+.prompt-card {
+    background: #323232; /* Slightly darker background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow for a more modern look */
+    padding: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .prompt-card:hover {
+    background: #404040; /* Darker shade on hover */
+    transform: translateY(-3px); /* Subtle lift effect */
+  }
+  
+  .prompt-card h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ececf1; /* Light text color */
+  }
+  
+  .prompt-card p {
+    margin: 8px 0 0;
+    color: #b0b0b0; /* Slightly lighter gray for the description */
+    font-size: 0.9em; /* Slightly smaller text for descriptions */
+  }
+  
